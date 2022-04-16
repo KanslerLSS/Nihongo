@@ -2,24 +2,21 @@ body{
    background-color: rgb(218, 218, 218);
 
 }
-h1{
+.h{
    display: flex;
    justify-content: center;
 }
- ul li {
-    list-style: none;
-  }
+
 .picture{
    display: block;
    display: flex;
-
+   background: rgb(255, 255, 255);
 }
 
 
 .imgh{
    width: 300px;
    height: auto;
-
 }
 
 .imgh1{
@@ -46,10 +43,4 @@ h1{
 .imgk2{
    height: 300px;
    width: auto;
-}
-
-.spisok{
-   display: block;
-   display: flex;
-   
 }
