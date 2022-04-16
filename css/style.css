@@ -1,0 +1,55 @@
+body{
+   background-color: rgb(218, 218, 218);
+
+}
+h1{
+   display: flex;
+   justify-content: center;
+}
+ ul li {
+    list-style: none;
+  }
+.picture{
+   display: block;
+   display: flex;
+
+}
+
+
+.imgh{
+   width: 300px;
+   height: auto;
+
+}
+
+.imgh1{
+   width: 200px;
+   height: auto;
+}
+
+.imgh2{
+   height: 324px;
+   width: auto;
+}
+
+.imgk{
+   width: 300px;
+   height: auto;
+
+}
+
+.imgk1{
+   width: 200px;
+   height: auto;
+}
+
+.imgk2{
+   height: 300px;
+   width: auto;
+}
+
+.spisok{
+   display: block;
+   display: flex;
+   
+}
