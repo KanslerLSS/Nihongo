@@ -172,17 +172,19 @@ body {
 
 /* HEADER*/
 
-.main_item{
+.main_item {
   display: inline-block;
 }
 
 .main_item_text {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-/*.title {
+.title {
   text-align: center;
-}*/
+}
 
 .picture {
   display: flex;
@@ -242,10 +244,4 @@ body {
   display: flex;
   justify-content: space-around;
   background: rgb(136, 136, 136);
-}
-
-p.text{
-  display: inline-block;
-  align-items: center;
-  width: 600px;
 }
