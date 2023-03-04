@@ -6,7 +6,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Nihongo.日本語</title>
-   <link rel="stylesheet" href="./css/style.css" />
+   <link rel="stylesheet" href="./css/style.css">
    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -33,17 +33,16 @@
             </nav>
          </div>
       </header>
-
+      <!-- ! начало текста -->
       <main class="main">
-         <div class="main_item">
-            <div class="main_item_text">
-               <p class="title">
+         <div class="main_wrapper">
+            <div class="main_content">
+               <p class="main_content-text">
                   Привет. Начну с того, что письмености в Японском языке, целых 3
                   штуки. <br>
                   Две слоговые азбуки : Хирагана и Катакана, Кандзи, или же
                   иероглифы.
                </p>
-               <br>
 
                <p>
                   Первая и самая главная особенность азбуки в этом языке заключается
@@ -54,13 +53,12 @@
                   таблицу годзюон. Однако, прежде чем начинать их освоение, надо
                   понять, какая между ними разница.
                </p>
-               <br>
 
-               <p class="main_item_text_kana">
+               <p class="main_content-text">
                   Обе азбуки читаются одинаково. Различие заключается только в их
                   применении и написании.
                </p>
-               <br>
+
                <p>
                   Хирагану используют для того, чтобы записать часть префиксов,
                   суффиксов и частиц. С помощью этой азбуки также можно записывать и
@@ -72,35 +70,35 @@
                   иероглифами и построить полноценные предложения с их помощью.
                   Получить представление о хирагане можно из таблицы ниже.
                </p>
-               <br>
             </div>
          </div>
+         <!-- ! конец текста -->
+         <!-- ! Хирагана начало -->
          <picture class="picture">
-            <img class="imgh" src="./img/Hiragana_op.png" alt="" />
+            <img class="picture__img-hiragana" src="./img/Hiragana_op.png" alt="" />
          </picture>
-         <div>
-            <div class="main_h">
-               <!-- heading? -->
-               <h2 class="h">Как же читать эту страшную штуку.</h2>
+
+         <div class="hiragana__kontent">
+            <div class="hiragana__kontent-text">
+               <p>Как же читать эту страшную штуку.</p>
+               <p>Да на самом деле очень просто.</p>
             </div>
-            <p class="main_item_text_kana">Да на самом деле очень просто.</p>
             <div class="picture">
-               <img class="kana_p" src="./img/Kana＿perevod.png" alt="" />
+               <img class="img_translate" src="./img/Kana＿perevod.png" alt="" />
             </div>
          </div>
-
+         <!-- ! Хирагана конец -->
          <div class="list">
             <ul class="item_list">
-               <li class="item_text">— согласные (произносятся как к, г, с, дз, т, д, ц, х, ф, п, б, м, р, н)</li>
-               <li class="item_text">— и полугласные (й, w)</li>
-               <li class="item_text">— гласные (а, и, у, э, о)</li>
-               <li class="item_text">Ничего страшного ведь так ?)</li>
+               <li class="item__list-text">— согласные (произносятся как к, г, с, дз, т, д, ц, х, ф, п, б, м, р, н)</li>
+               <li class="item__list-text">— и полугласные (й, w)</li>
+               <li class="item__list-text">— гласные (а, и, у, э, о)</li>
+               <li class="item__list-text">Ничего страшного ведь так ?)</li>
             </ul>
          </div>
-         <br>
-
-         <div>
-            <p>
+         <!-- ! Катакана начало -->
+         <div class="katakana__kontent">
+            <p class="katakana__kontent-text">
                Когда хирагана успешно усвоена, учащиеся переходят к катакане. Ее
                используют для того,
                чтобы записывать иностранные слова или выделить какое-либо
@@ -111,24 +109,26 @@
                так что появление новых символов для обозначения непривычных звуков
                вполне закономерно.
             </p>
-            <br>
-            <p class="main_item_text_kana">Вот как выглядит катакана отдельно.</p>
-            <picture class="picture picture__bottom">
-               <img class="imgk" src="./img/Katakana_op.png" alt="" />
+
+            <p class="katakana__kontent-text">Вот как выглядит катакана отдельно.</p>
+            <picture class="katakana__kontent-img">
+               <img class="katakana__img" src="./img/Katakana_op.png" alt="" />
             </picture>
          </div>
-         <br>
+         <!-- ! Катакана конец -->
 
          <footer class="footer">
-            <p class="footer_item">
+            <p class="footer__text">
                Теперь дорогой друг, тебе хватит знаний, чтоб спокойно читать
                японский текст (если он написан азбуками) Потому приглашаю к чтению
                историю про
-               <a class="footer_item_link"
+               <a class="footer__item-link"
                   href="https://drive.google.com/drive/folders/1nqpB3jncp17Qu5i_y2CGlPQwybWhRHrG?usp=sharing"
                   target="_blank">Хатико</a><br>
             </p>
-            <a class="footer_link" href="/Translation.html">Для ленивой жопки!</a>
+            <div class="footer__secret">
+               <a class="footer__secret-link" href="/Translation.html">Для ленивой жопки!</a>
+            </div>
          </footer>
       </main>
    </div>
